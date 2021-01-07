@@ -1,0 +1,342 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  max-width: 100%;
+  margin: 0px auto;
+  background-color: rgb(238, 240, 241);
+}
+
+#t1 {
+  color: white;
+  font-size: 3rem;
+
+  padding: 1%;
+}
+
+#logoLine {
+  display: flex;
+}
+
+#lsectionNav {
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  background-color: rgb(51, 51, 58);
+  width: 100% !important;
+}
+
+#lbutton {
+  background-color: rgb(51, 51, 58);
+  border: 1px solid rgb(26, 152, 255);
+  font-size: 1.5rem;
+  color: white;
+}
+
+#lbutton:hover {
+  background-color: rgb(26, 152, 255);
+  border: 1px solid rgb(26, 152, 255);
+  font-size: 1.5rem;
+  color: white;
+}
+
+#rbutton {
+  background-color: rgb(255, 114, 0);
+  font-size: 1.5rem;
+  color: white;
+}
+
+#rbutton:hover {
+  background-color: rgb(223, 120, 23);
+  border: 1px solid rgb(51, 51, 58);
+  font-size: 1.5rem;
+  color: white;
+}
+
+#sbutton {
+  font-size: 1.5rem;
+  color: white;
+  background-color: opacity (0.4);
+}
+
+.main-button {
+  font-size: 26px;
+  background-color: rgb(26, 152, 255);
+  color: whitesmoke;
+  margin: 5px;
+}
+
+#sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#k {
+  display: flex;
+}
+
+#pic-section {
+  position: relative;
+  width: 60%;
+}
+
+#lsectionNav {
+  margin-left: 10px;
+}
+
+#banner-tx {
+  position: absolute;
+  bottom: 1%;
+  left: 0%;
+  font-size: 2rem;
+  color: white;
+  padding: 4px;
+  background-color: rgba(47, 89, 228, 0.6);
+}
+
+#k > a {
+  margin: 0px 10px;
+  font-weight: bolder;
+}
+.main-button:hover {
+  font-size: 26px;
+  background-color: blue;
+  color: white;
+  margin: 5px;
+}
+
+.board-txt1 {
+  font-size: 1.5rem;
+  margin: 2px;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.board-txt1:hover {
+  font-size: 1.5rem;
+  margin: 2px;
+  padding: 2px;
+  color: blue;
+}
+.board-txt-meta {
+  font-size: 14rem;
+}
+
+#main-banner {
+  display: flex;
+  margin-top: 1%;
+  width: 100%;
+  height: 100%;
+}
+
+.meta {
+  display: flex;
+}
+
+.meta > p {
+  margin: 5px;
+}
+
+.mmain {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 90%;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+#logo {
+  color: rgb(255, 114, 0);
+  font-size: 2rem;
+}
+
+.podcast {
+  display: flex;
+}
+
+#pletter {
+  margin: 4px;
+}
+#ppic {
+  width: 60%;
+  height: auto;
+}
+
+.mmain-letter {
+  position: absolute;
+  bottom: 30%;
+  left: 0%;
+  color: white;
+  width: 95%;
+  height: auto;
+  margin: 4px;
+  font-size: 1.6vw;
+}
+.mmain-letter2 {
+  position: absolute;
+  bottom: 20%;
+  left: 0%;
+  color: white;
+  font-size: 1.2vw;
+  width: 95%;
+  height: auto;
+  margin: 4px;
+}
+
+.mmain-letter:hover {
+  text-decoration: underline;
+  position: absolute;
+  bottom: 30%;
+  left: 0%;
+  color: white;
+  width: 95%;
+  height: auto;
+  margin: 4px;
+  font-size: 1.6vw;
+}
+
+.add-box {
+  border: 1px solid black;
+  width: 18%;
+  height: auto;
+  margin: 2%;
+}
+
+.mini-box {
+  width: 28%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1%;
+}
+
+body {
+  margin: 0px !important;
+}
+
+#main-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  opacity: 0.7;
+  filter: brightness(58%);
+}
+
+#main-pic:hover {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  opacity: 0.7;
+  filter: brightness(38%);
+}
+
+#mmain-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+#mmain-pic:hover {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  filter: brightness(68%);
+}
+
+#board-title {
+  margin: 0;
+}
+
+#right-nav {
+  margin: 6px;
+}
+
+#b-title {
+  background-image: linear-gradient(
+    to right,
+    rgba(21, 65, 189, 0.384),
+    rgb(201, 216, 218)
+  );
+  height: 9px;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.m-card {
+  background-color: white;
+  padding: 2px;
+  margin-top: 1%;
+}
+
+#key {
+  background-color: white;
+  border-radius: 5px;
+}
+
+#key > h4 {
+  margin: 3%;
+  padding: 1%;
+}
+#m-card-right {
+  margin: 1%;
+}
+
+#cards-parent {
+  display: flex;
+}
+
+#m-card-left {
+  width: 75%;
+}
+
+#hbicn {
+  height: 40px;
+  width: 40px;
+  display: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 800px) {
+  #nav {
+    display: none;
+  }
+
+  .mmain {
+    display: none;
+  }
+
+  .podcast {
+    display: none;
+  }
+
+  .add-box {
+    display: none;
+  }
+
+  #hbicn {
+    display: inline;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .add-box {
+    display: none;
+  }
+}
